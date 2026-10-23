@@ -130,14 +130,13 @@ export default function PainelRotas() {
   return (
     <div
       style={{
-       width: "100%",
-        height: "100%",
-        background: "#0f172a",
-        color: "white",
-        display: "flex",
-        flexDirection: "column",
-        overflow: "hidden",
-      }}
+  width: "100%",
+  minHeight: "100vh",
+  background: "#0f172a",
+  color: "white",
+  display: "flex",
+  flexDirection: "column",
+}}
     >
       <div
         style={{
@@ -206,10 +205,11 @@ export default function PainelRotas() {
       </div>
 
       {rotaPrincipal && (
-        <div
-          style={{
-            flex: 1,
-            margin: "10px",
+  <div
+    style={{
+      flex: 1,
+      minHeight: 0,
+      margin: "10px",
             borderRadius: "20px",
             background: corStatus(
               minutosRestantes(
@@ -273,14 +273,15 @@ export default function PainelRotas() {
       )}
 
       <div
-        style={{
-          background: "#111827",
-          padding: "15px",
-          display: "flex",
-          gap: "15px",
-          overflowX: "auto",
-        }}
-      >
+  style={{
+    background: "#111827",
+    padding: "15px",
+    display: "flex",
+    gap: "15px",
+    overflowX: "auto",
+    flexShrink: 0,
+  }}
+>
         {rotasAtivas.slice(1).map((rota) => (
           <div
             key={`${rota.numero}-${rota.nome}`}
