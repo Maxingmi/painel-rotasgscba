@@ -8,58 +8,63 @@ export default function PainelRotas() {
 
   const setores = {
     SEPARACAO: [
-    { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "18:30" },
-    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:00" },
-    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "21:30" },
-    { numero: "035/037", nome: "VDC//POÇÕES", limite: "22:30" },
-    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "23:20" },
-    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "23:40" },
-    { numero: "064/066", nome: "SERGIPE", limite: "00:30" },
-    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:00" },
-    { numero: "792", nome: "FPP", limite: "01:30" },
-    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:00" },
-    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:10" },
-    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:00" },
-    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "04:20" },
-    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "06:50" },
+    { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "18:30", entregue:false, horarioEntrega:null, },
+    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:00", entregue:false, horarioEntrega:null, },
+    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "21:30", entregue:false, horarioEntrega:null, },
+    { numero: "035/037", nome: "VDC//POÇÕES", limite: "22:30", entregue:false, horarioEntrega:null, },
+    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "23:20", entregue:false, horarioEntrega:null, },
+    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "23:40", entregue:false, horarioEntrega:null, },
+    { numero: "064/066", nome: "SERGIPE", limite: "00:30", entregue:false, horarioEntrega:null, },
+    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:00", entregue:false, horarioEntrega:null, },
+    { numero: "792", nome: "FPP", limite: "01:30", entregue:false, horarioEntrega:null, },
+    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:00", entregue:false, horarioEntrega:null, },
+    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:10", entregue:false, horarioEntrega:null, },
+    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:00", entregue:false, horarioEntrega:null, },
+    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "04:20", entregue:false, horarioEntrega:null, },
+    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "06:50", entregue:false, horarioEntrega:null, },
   ],
 
     CONFERENCIA: [
-    { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "18:50" },
-    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:20" },
-    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "21:50" },
-    { numero: "035/037", nome: "VDC//POÇÕES", limite: "22:50" },
-    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "23:40" },
-    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "00:00" },
-    { numero: "064/066", nome: "SERGIPE", limite: "00:50" },
-    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:20" },
-    { numero: "792", nome: "FPP", limite: "01:50" },
-    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:20" },
-    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:30" },
-    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:20" },
-    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "04:40" },
-    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "07:10" },
+    { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "18:50", entregue:false, horarioEntrega:null, },
+    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:20", entregue:false, horarioEntrega:null, },
+    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "21:50", entregue:false, horarioEntrega:null, },
+    { numero: "035/037", nome: "VDC//POÇÕES", limite: "22:50", entregue:false, horarioEntrega:null, },
+    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "23:40", entregue:false, horarioEntrega:null, },
+    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "00:00", entregue:false, horarioEntrega:null, },
+    { numero: "064/066", nome: "SERGIPE", limite: "00:50", entregue:false, horarioEntrega:null, },
+    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:20", entregue:false, horarioEntrega:null, },
+    { numero: "792", nome: "FPP", limite: "01:50", entregue:false, horarioEntrega:null, },
+    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:20", entregue:false, horarioEntrega:null, },
+    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:30", entregue:false, horarioEntrega:null, },
+    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:20", entregue:false, horarioEntrega:null, },
+    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "04:40", entregue:false, horarioEntrega:null, },
+    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "07:10", entregue:false, horarioEntrega:null, },
   ],
 
     EXPEDICAO: [
-   { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "19:10" },
-    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:40" },
-    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "22:10" },
-    { numero: "035/037", nome: "VDC//POÇÕES", limite: "23:10" },
-    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "00:00" },
-    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "00:20" },
-    { numero: "064/066", nome: "SERGIPE", limite: "01:10" },
-    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:40" },
-    { numero: "792", nome: "FPP", limite: "02:10" },
-    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:40" },
-    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:50" },
-    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:40" },
-    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "05:00" },
-    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "07:30" },
+   { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "19:10", entregue:false, horarioEntrega:null, },
+    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:40", entregue:false, horarioEntrega:null, },
+    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "22:10", entregue:false, horarioEntrega:null, },
+    { numero: "035/037", nome: "VDC//POÇÕES", limite: "23:10", entregue:false, horarioEntrega:null, },
+    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "00:00", entregue:false, horarioEntrega:null, },
+    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "00:20", entregue:false, horarioEntrega:null, },
+    { numero: "064/066", nome: "SERGIPE", limite: "01:10", entregue:false, horarioEntrega:null, },
+    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:40", entregue:false, horarioEntrega:null, },
+    { numero: "792", nome: "FPP", limite: "02:10", entregue:false, horarioEntrega:null, },
+    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:40", entregue:false, horarioEntrega:null, },
+    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:50", entregue:false, horarioEntrega:null, },
+    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:40", entregue:false, horarioEntrega:null, },
+    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "05:00", entregue:false, horarioEntrega:null, },
+    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "07:30", entregue:false, horarioEntrega:null, },
   ],
   };
 
-  const rotas = setores[setorSelecionado];
+   const [rotasPorSetor, setRotasPorSetor] =
+    useState(setores);
+
+  const rotas =
+    rotasPorSetor[setorSelecionado];
+
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -91,6 +96,25 @@ export default function PainelRotas() {
     );
   };
 
+  const rotasAtrasadas = rotas.filter(
+  (rota) => {
+    const minutos =
+      minutosRestantes(rota.limite);
+
+    return (
+      minutos <= 0 &&
+      rota.entregue === false
+    );
+  }
+);
+
+const historicoEntregas = rotas
+  .filter(
+    (rota) =>
+      rota.entregue === true
+  )
+  .reverse();
+
   const corStatus = (minutos) => {
     if (minutos <= 0) return "#4b5563";
 
@@ -100,6 +124,35 @@ export default function PainelRotas() {
 
     return "#16a34a";
   };
+  const marcarComoEntregue = (numeroRota) => {
+  setRotasPorSetor((dadosAnteriores) => {
+    const copia = { ...dadosAnteriores };
+
+    copia[setorSelecionado] =
+      copia[setorSelecionado].map((rota) => {
+        if (rota.numero === numeroRota) {
+          const atraso =
+  Math.abs(
+    minutosRestantes(
+      rota.limite
+    )
+  );
+
+return {
+  ...rota,
+  entregue: true,
+  horarioEntrega:
+    new Date().toLocaleTimeString(),
+  atraso,
+};
+        }
+
+        return rota;
+      });
+
+    return copia;
+  });
+};
 
   const rotasAtivas = rotas
     .filter((rota) => {
@@ -116,16 +169,28 @@ export default function PainelRotas() {
     );
 
   const rotasEncerradas = rotas.filter(
-    (rota) => {
-      const minutos = minutosRestantes(
-        rota.limite
-      );
+  (rota) => {
+    const minutos = minutosRestantes(
+      rota.limite
+    );
 
-      return minutos <= 0 && minutos >= -60;
-    }
-  );
+    return (
+      minutos <= 0 &&
+      minutos >= -60 &&
+      rota.entregue === false
+    );
+  }
+);
 
   const rotaPrincipal = rotasAtivas[0];
+
+  const rotaAtrasadaPrincipal =
+  rotasEncerradas[0];
+  
+  const proximaRota =
+  rotasAtivas.find(
+    (rota) => !rota.entregue
+  );
 
   return (
     <div
@@ -204,73 +269,116 @@ export default function PainelRotas() {
         </div>
       </div>
 
-      {rotaPrincipal && (
+      <div
+  style={{
+    display: "flex",
+    gap: "10px",
+    flex: 1,
+    padding: "10px",
+  }}
+>
+  {/* ATRASADA */}
+
   <div
     style={{
       flex: 1,
-      minHeight: 0,
-      margin: "10px",
-            borderRadius: "20px",
-            background: corStatus(
-              minutosRestantes(
-                rotaPrincipal.limite
-              )
-            ),
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexDirection: "column",
-            textAlign: "center",
+      background: "#991b1b",
+      borderRadius: "20px",
+      padding: "30px",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      textAlign: "center",
+    }}
+  >
+    <h1>🚨 ATRASADA</h1>
+
+    {rotaAtrasadaPrincipal ? (
+      <>
+        <h1
+          style={{
+            fontSize: "3rem",
           }}
         >
-          <h1
-            style={{
-              margin: 0,
-              fontSize: "clamp(2rem, 4vw, 4rem)",
-              fontWeight: "bold",
-              maxWidth: "90%",
-              lineHeight: "1",
-            }}
-          >
-            {rotaPrincipal.nome}
-          </h1>
+          {rotaAtrasadaPrincipal.nome}
+        </h1>
 
-          <h2
-            style={{
-              fontSize: "4rem",
-              margin: "15px 0",
-            }}
-          >
-            ROTA {rotaPrincipal.numero}
-          </h2>
+        <h2>
+          ROTA {rotaAtrasadaPrincipal.numero}
+        </h2>
 
-          <h3
-            style={{
-              fontSize: "2rem",
-            }}
-          >
-            HORÁRIO LIMITE
-          </h3>
+        <button
+          onClick={() =>
+            marcarComoEntregue(
+              rotaAtrasadaPrincipal.numero
+            )
+          }
+          style={{
+            marginTop: "20px",
+            padding: "15px 30px",
+            background: "#22c55e",
+            border: "none",
+            borderRadius: "10px",
+            color: "white",
+            fontWeight: "bold",
+            cursor: "pointer",
+            fontSize: "1.1rem",
+          }}
+        >
+          ROTA ENTREGUE
+        </button>
+      </>
+    ) : (
+      <h2>Nenhuma rota atrasada</h2>
+    )}
+  </div>
 
-          <h2
-            style={{
-              fontSize: "4rem",
-            }}
-          >
-            {rotaPrincipal.limite}
-          </h2>
+  {/* PRÓXIMA */}
 
-          <h2
-            style={{
-              fontSize: "3rem",
-            }}
-          >
-            {minutosRestantes(
-              rotaPrincipal.limite
-            )} MINUTOS RESTANTES
-          </h2>
-        </div>
-      )}
+  <div
+    style={{
+      flex: 1,
+      background: "#1d4ed8",
+      borderRadius: "20px",
+      padding: "30px",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      textAlign: "center",
+    }}
+  >
+    <h1>⏳ PRÓXIMA ROTA</h1>
+
+    {proximaRota && (
+      <>
+        <h1
+          style={{
+            fontSize: "3rem",
+          }}
+        >
+          {proximaRota.nome}
+        </h1>
+
+        <h2>
+          ROTA {proximaRota.numero}
+        </h2>
+
+        <h2>
+          {proximaRota.limite}
+        </h2>
+
+        <h2>
+          {minutosRestantes(
+            proximaRota.limite
+          )}{" "}
+          MIN RESTANTES
+        </h2>
+      </>
+    )}
+  </div>
+</div>
 
       <div
   style={{
@@ -314,11 +422,88 @@ export default function PainelRotas() {
             }}
           >
             <h3>{rota.nome}</h3>
-            <p>ROTA {rota.numero}</p>
-            <p>ENCERRADA</p>
+
+<p>ROTA {rota.numero}</p>
+
+<p>ATRASADA</p>
+
+<button
+  onClick={() =>
+    marcarComoEntregue(
+      rota.numero
+    )
+  }
+  style={{
+    marginTop: "10px",
+    background: "#22c55e",
+    color: "white",
+    border: "none",
+    padding: "10px",
+    borderRadius: "8px",
+    cursor: "pointer",
+    fontWeight: "bold",
+  }}
+>
+  ROTA ENTREGUE
+</button>
           </div>
         ))}
       </div>
+      <div
+  style={{
+    background: "#111827",
+    padding: "20px",
+    borderTop: "2px solid #334155",
+  }}
+>
+  <h2>
+    📋 HISTÓRICO DE ENTREGAS
+  </h2>
+
+  <div
+    style={{
+      display: "flex",
+      gap: "15px",
+      overflowX: "auto",
+    }}
+  >
+    {historicoEntregas.map(
+      (rota) => (
+        <div
+          key={`hist-${rota.numero}`}
+          style={{
+            minWidth: "300px",
+            background: "#374151",
+            padding: "15px",
+            borderRadius: "10px",
+          }}
+        >
+          <h3>{rota.nome}</h3>
+
+          <p>
+            ROTA {rota.numero}
+          </p>
+
+          <p>
+            Limite:{" "}
+            {rota.limite}
+          </p>
+
+          <p>
+            Entregue:{" "}
+            {rota.horarioEntrega}
+          </p>
+
+          <p>
+            Atraso:{" "}
+            {rota.atraso || 0}
+            {" "}min
+          </p>
+        </div>
+      )
+    )}
+  </div>
+</div>
     </div>
   );
 }
