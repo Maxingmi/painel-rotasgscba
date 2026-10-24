@@ -60,7 +60,16 @@ export default function PainelRotas() {
   };
 
    const [rotasPorSetor, setRotasPorSetor] =
-    useState(setores);
+  useState(() => {
+    const salvo =
+      localStorage.getItem(
+        "rotasPorSetor"
+      );
+
+    return salvo
+      ? JSON.parse(salvo)
+      : setores;
+  });
 
   const rotas =
     rotasPorSetor[setorSelecionado];
@@ -73,6 +82,12 @@ export default function PainelRotas() {
 
     return () => clearInterval(timer);
   }, []);
+  useEffect(() => {
+  localStorage.setItem(
+    "rotasPorSetor",
+    JSON.stringify(rotasPorSetor)
+  );
+}, [rotasPorSetor]);
 
   const minutosRestantes = (horario) => {
     const [hora, minuto] = horario.split(":");
