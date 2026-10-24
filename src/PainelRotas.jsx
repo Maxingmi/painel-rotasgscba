@@ -8,54 +8,54 @@ export default function PainelRotas() {
 
   const setores = {
     SEPARACAO: [
-    { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "18:30", entregue:false, horarioEntrega:null, },
-    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:00", entregue:false, horarioEntrega:null, },
-    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "21:30", entregue:false, horarioEntrega:null, },
-    { numero: "035/037", nome: "VDC//POÇÕES", limite: "22:30", entregue:false, horarioEntrega:null, },
-    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "23:20", entregue:false, horarioEntrega:null, },
-    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "23:40", entregue:false, horarioEntrega:null, },
-    { numero: "064/066", nome: "SERGIPE", limite: "00:30", entregue:false, horarioEntrega:null, },
-    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:00", entregue:false, horarioEntrega:null, },
-    { numero: "792", nome: "FPP", limite: "01:30", entregue:false, horarioEntrega:null, },
-    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:00", entregue:false, horarioEntrega:null, },
-    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:10", entregue:false, horarioEntrega:null, },
-    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:00", entregue:false, horarioEntrega:null, },
-    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "04:20", entregue:false, horarioEntrega:null, },
-    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "06:50", entregue:false, horarioEntrega:null, },
+    { ordem: 1, numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "18:30", entregue:false, horarioEntrega:null, },
+    { ordem: 2, numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:00", entregue:false, horarioEntrega:null, },
+    { ordem: 3, numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "21:30", entregue:false, horarioEntrega:null, },
+    { ordem: 4, numero: "035/037", nome: "VDC//POÇÕES", limite: "22:30", entregue:false, horarioEntrega:null, },
+    { ordem: 5, numero: "043/049", nome: "ITABUNA//GANDU", limite: "23:20", entregue:false, horarioEntrega:null, },
+    { ordem: 6, numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "23:40", entregue:false, horarioEntrega:null, },
+    { ordem: 7, numero: "064/066", nome: "SERGIPE", limite: "00:30", entregue:false, horarioEntrega:null, },
+    { ordem: 8, numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:00", entregue:false, horarioEntrega:null, },
+    { ordem: 9, numero: "792", nome: "FPP", limite: "01:30", entregue:false, horarioEntrega:null, },
+    { ordem: 10, numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:00", entregue:false, horarioEntrega:null, },
+    { ordem: 11, numero: "765", nome: "SANTO ANTÔNIO", limite: "03:10", entregue:false, horarioEntrega:null, },
+    { ordem: 12, numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:00", entregue:false, horarioEntrega:null, },
+    { ordem: 13, numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "04:20", entregue:false, horarioEntrega:null, },
+    { ordem: 14, numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "06:50", entregue:false, horarioEntrega:null, },
   ],
 
     CONFERENCIA: [
-    { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "18:50", entregue:false, horarioEntrega:null, },
-    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:20", entregue:false, horarioEntrega:null, },
-    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "21:50", entregue:false, horarioEntrega:null, },
-    { numero: "035/037", nome: "VDC//POÇÕES", limite: "22:50", entregue:false, horarioEntrega:null, },
-    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "23:40", entregue:false, horarioEntrega:null, },
-    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "00:00", entregue:false, horarioEntrega:null, },
-    { numero: "064/066", nome: "SERGIPE", limite: "00:50", entregue:false, horarioEntrega:null, },
-    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:20", entregue:false, horarioEntrega:null, },
-    { numero: "792", nome: "FPP", limite: "01:50", entregue:false, horarioEntrega:null, },
-    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:20", entregue:false, horarioEntrega:null, },
-    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:30", entregue:false, horarioEntrega:null, },
-    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:20", entregue:false, horarioEntrega:null, },
-    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "04:40", entregue:false, horarioEntrega:null, },
-    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "07:10", entregue:false, horarioEntrega:null, },
+    { ordem: 1, numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "18:50", entregue:false, horarioEntrega:null, },
+    { ordem: 2, numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:20", entregue:false, horarioEntrega:null, },
+    { ordem: 3, numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "21:50", entregue:false, horarioEntrega:null, },
+    { ordem: 4, numero: "035/037", nome: "VDC//POÇÕES", limite: "22:50", entregue:false, horarioEntrega:null, },
+    { ordem: 5, numero: "043/049", nome: "ITABUNA//GANDU", limite: "23:40", entregue:false, horarioEntrega:null, },
+    { ordem: 6, numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "00:00", entregue:false, horarioEntrega:null, },
+    { ordem: 7, numero: "064/066", nome: "SERGIPE", limite: "00:50", entregue:false, horarioEntrega:null, },
+    { ordem: 8, numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:20", entregue:false, horarioEntrega:null, },
+    { ordem: 9, numero: "792", nome: "FPP", limite: "01:50", entregue:false, horarioEntrega:null, },
+    { ordem: 10, numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:20", entregue:false, horarioEntrega:null, },
+    { ordem: 11, numero: "765", nome: "SANTO ANTÔNIO", limite: "03:30", entregue:false, horarioEntrega:null, },
+    { ordem: 12, numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:20", entregue:false, horarioEntrega:null, },
+    { ordem: 13, numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "04:40", entregue:false, horarioEntrega:null, },
+    { ordem: 14, numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "07:10", entregue:false, horarioEntrega:null, },
   ],
 
     EXPEDICAO: [
-   { numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "19:10", entregue:false, horarioEntrega:null, },
-    { numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:40", entregue:false, horarioEntrega:null, },
-    { numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "22:10", entregue:false, horarioEntrega:null, },
-    { numero: "035/037", nome: "VDC//POÇÕES", limite: "23:10", entregue:false, horarioEntrega:null, },
-    { numero: "043/049", nome: "ITABUNA//GANDU", limite: "00:00", entregue:false, horarioEntrega:null, },
-    { numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "00:20", entregue:false, horarioEntrega:null, },
-    { numero: "064/066", nome: "SERGIPE", limite: "01:10", entregue:false, horarioEntrega:null, },
-    { numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:40", entregue:false, horarioEntrega:null, },
-    { numero: "792", nome: "FPP", limite: "02:10", entregue:false, horarioEntrega:null, },
-    { numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:40", entregue:false, horarioEntrega:null, },
-    { numero: "765", nome: "SANTO ANTÔNIO", limite: "03:50", entregue:false, horarioEntrega:null, },
-    { numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:40", entregue:false, horarioEntrega:null, },
-    { numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "05:00", entregue:false, horarioEntrega:null, },
-    { numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "07:30", entregue:false, horarioEntrega:null, },
+    { ordem: 1, numero: "788/789", nome: "BARREIRAS//IBOTIRAMA", limite: "19:10", entregue:false, horarioEntrega:null, },
+    { ordem: 2, numero: "039", nome: "TEIXEIRA DE FREITAS", limite: "20:40", entregue:false, horarioEntrega:null, },
+    { ordem: 3, numero: "030/086/787", nome: "GUANAMBI//BRUMADO//SEABRA", limite: "22:10", entregue:false, horarioEntrega:null, },
+    { ordem: 4, numero: "035/037", nome: "VDC//POÇÕES", limite: "23:10", entregue:false, horarioEntrega:null, },
+    { ordem: 5, numero: "043/049", nome: "ITABUNA//GANDU", limite: "00:00", entregue:false, horarioEntrega:null, },
+    { ordem: 6, numero: "771/786", nome: "SR.BOMFIM//JUAZEIRO", limite: "00:20", entregue:false, horarioEntrega:null, },
+    { ordem: 7, numero: "064/066", nome: "SERGIPE", limite: "01:10", entregue:false, horarioEntrega:null, },
+    { ordem: 8, numero: "784/791/778", nome: "IRECÊ//JACOBINA//JEQUIÉ", limite: "01:40", entregue:false, horarioEntrega:null, },
+    { ordem: 9, numero: "792", nome: "FPP", limite: "02:10", entregue:false, horarioEntrega:null, },
+    { ordem: 10, numero: "793/007", nome: "ITABERABA//RIBEIRA DO POMBAL", limite: "02:40", entregue:false, horarioEntrega:null, },
+    { ordem: 11, numero: "765", nome: "SANTO ANTÔNIO", limite: "03:50", entregue:false, horarioEntrega:null, },
+    { ordem: 12, numero: "038/033", nome: "FEIRA DE SANTANA", limite: "04:40", entregue:false, horarioEntrega:null, },
+    { ordem: 13, numero: "770/767", nome: "SERRINHA//ALAGOINHAS", limite: "05:00", entregue:false, horarioEntrega:null, },
+    { ordem: 14, numero: "034", nome: "SALVADOR REGIÃO MTP", limite: "07:30", entregue:false, horarioEntrega:null, },
   ],
   };
 
@@ -111,6 +111,24 @@ export default function PainelRotas() {
     );
   };
 
+  const formatarTempo = (minutos) => {
+  if (minutos <= 0) {
+    return "0 min";
+  }
+
+  const horas = Math.floor(
+    minutos / 60
+  );
+
+  const mins = minutos % 60;
+
+  if (horas === 0) {
+    return `${mins} min`;
+  }
+
+  return `${horas}h ${mins} min`;
+};
+
   const rotasAtrasadas = rotas.filter(
   (rota) => {
     const minutos =
@@ -140,17 +158,16 @@ const historicoEntregas = rotas
     return "#16a34a";
   };
   const marcarComoEntregue = (numeroRota) => {
-  setRotasPorSetor((dadosAnteriores) => {
+
+     setRotasPorSetor((dadosAnteriores) => {
     const copia = { ...dadosAnteriores };
 
     copia[setorSelecionado] =
       copia[setorSelecionado].map((rota) => {
         if (rota.numero === numeroRota) {
-          const atraso =
-  Math.abs(
-    minutosRestantes(
-      rota.limite
-    )
+         const diferenca =
+  minutosRestantes(
+    rota.limite
   );
 
 return {
@@ -158,7 +175,14 @@ return {
   entregue: true,
   horarioEntrega:
     new Date().toLocaleTimeString(),
-  atraso,
+  atraso:
+    diferenca < 0
+      ? Math.abs(diferenca)
+      : 0,
+  adiantamento:
+    diferenca > 0
+      ? diferenca
+      : 0,
 };
         }
 
@@ -169,19 +193,29 @@ return {
   });
 };
 
-  const rotasAtivas = rotas
-    .filter((rota) => {
-      const minutos = minutosRestantes(
-        rota.limite
-      );
+const iniciarDia = () => {
+  const confirmar = window.confirm(
+    "Deseja realmente iniciar um novo dia?"
+  );
 
-      return minutos > 0 && minutos <= 240;
-    })
-    .sort(
-      (a, b) =>
-        minutosRestantes(a.limite) -
-        minutosRestantes(b.limite)
-    );
+  if (!confirmar) return;
+
+  localStorage.removeItem(
+    "rotasPorSetor"
+  );
+
+  window.location.reload();
+};
+
+  const rotasAtivas = rotas
+  .filter(
+    (rota) =>
+      rota.entregue === false
+  )
+  .sort(
+    (a, b) =>
+      a.ordem - b.ordem
+  );
 
   const rotasEncerradas = rotas.filter(
   (rota) => {
@@ -191,7 +225,6 @@ return {
 
     return (
       minutos <= 0 &&
-      minutos >= -60 &&
       rota.entregue === false
     );
   }
@@ -203,9 +236,10 @@ return {
   rotasEncerradas[0];
   
   const proximaRota =
-  rotasAtivas.find(
-    (rota) => !rota.entregue
-  );
+  rotasAtivas.length > 0
+    ? rotasAtivas[0]
+    : null;
+
 
   return (
     <div
@@ -273,14 +307,37 @@ return {
             </option>
           </select>
 
-          <h2
-            style={{
-              margin: 0,
-              fontSize: "2rem",
-            }}
-          >
-            {agora.toLocaleTimeString()}
-          </h2>
+          <div
+  style={{
+    display: "flex",
+    alignItems: "center",
+    gap: "15px",
+  }}
+>
+  <button
+    onClick={iniciarDia}
+    style={{
+      background: "#dc2626",
+      color: "white",
+      border: "none",
+      padding: "10px 15px",
+      borderRadius: "8px",
+      cursor: "pointer",
+      fontWeight: "bold",
+    }}
+  >
+    🔄 INICIAR DIA
+  </button>
+
+  <h2
+    style={{
+      margin: 0,
+      fontSize: "2rem",
+    }}
+  >
+    {agora.toLocaleTimeString()}
+  </h2>
+</div>
         </div>
       </div>
 
@@ -385,11 +442,32 @@ return {
         </h2>
 
         <h2>
-          {minutosRestantes(
-            proximaRota.limite
-          )}{" "}
-          MIN RESTANTES
+          {formatarTempo(
+  minutosRestantes(
+    proximaRota.limite
+  )
+)} RESTANTES
         </h2>
+        <button
+  onClick={() =>
+    marcarComoEntregue(
+      proximaRota.numero
+    )
+  }
+  style={{
+    marginTop: "20px",
+    padding: "15px 30px",
+    background: "#22c55e",
+    border: "none",
+    borderRadius: "10px",
+    color: "white",
+    fontWeight: "bold",
+    cursor: "pointer",
+    fontSize: "1.1rem",
+  }}
+>
+  ✅ ROTA ENTREGUE
+</button>
       </>
     )}
   </div>
@@ -509,11 +587,24 @@ return {
             {rota.horarioEntrega}
           </p>
 
-          <p>
-            Atraso:{" "}
-            {rota.atraso || 0}
-            {" "}min
-          </p>
+          {rota.atraso > 0 && (
+  <p>
+    ⚠️ Atraso: {formatarTempo(rota.atraso)}
+  </p>
+)}
+
+{rota.adiantamento > 0 && (
+  <p>
+    ✅ Entregue {formatarTempo(rota.adiantamento)} antes
+  </p>
+)}
+
+{rota.atraso === 0 &&
+ rota.adiantamento === 0 && (
+  <p>
+    ✅ Entregue no prazo
+  </p>
+)}
         </div>
       )
     )}
