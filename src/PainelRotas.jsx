@@ -612,32 +612,50 @@ const iniciarDia = () => {
   </div>
 </div>
 <div
-      style={{
-        background: "#020617",
-        borderTop: "1px solid #334155",
-        padding: "15px",
-        textAlign: "center",
-        color: "#94a3b8",
-        fontSize: "0.85rem",
-      }}
-    >
-      <div>
-        Sistema de Gestão Operacional Logística (SGOL) v1.0
-      </div>
+  style={{
+    background: "#dfe2f1",
+    borderTop: "1px solid #334155",
+    padding: "15px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: "20px",
+    color: "#000000",
+    fontSize: "0.85rem",
+  }}
+>
+  <img
+    src="/logo-grupo-sc.png"
+    alt="Grupo SC"
+    style={{
+      height: "100px",
+    }}
+  />
 
-      <div>
-        Desenvolvido por cleomarques.carvalho@grupos.com.br
-      </div>
-
-      <div>
-        Suporte Técnico Jr | GSC BA
-      </div>
-
-      <div>
-        Última atualização: 26/10/2026
-      </div>
+  <div
+    style={{
+      textAlign: "left",
+    }}
+  >
+    <div>
+      Sistema de Gestão Operacional Logística (SGOL) v1.0
     </div>
 
+    <div>
+      Desenvolvido por cleomarques.carvalho@gruposc.com.br
     </div>
+
+    <div>
+      Suporte Técnico Jr | GSC BA
+    </div>
+
+    <div>
+      Última atualização: 26/10/2026
+    </div>
+  </div>
+</div>
+    </div>
+
+    
   );
 }
